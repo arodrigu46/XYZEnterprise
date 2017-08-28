@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XYZEnterprise</string>
+    <string name="ancla">Anchor</string>
+    <string name="baño_de_oro">Gold Bath</string>
+    <string name="calcular">Calculate Value</string>
+    <string name="cop">COP</string>
+    <string name="cuerda">String</string>
+    <string name="cuero">Leather</string>
+    <string name="dije">Pendant</string>
+    <string name="ingresar_numero_manillas">Enter the amout you want:</string>
+    <string name="martillo">Hammer</string>
+    <string name="material">Material</string>
+    <string name="moneda">Coin</string>
+    <string name="niquel">Nickel</string>
+    <string name="oro">Gold</string>
+    <string name="oro_rosado">Pink Gold</string>
+    <string name="plata">Silver</string>
+    <string name="tipo">Type</string>
+    <string name="titulo_main">Bracelet</string>
+    <string name="usd">USD</string>
+    <string name="valor_a_pagar">Amout to be Paid</string>
+    <string name="unidades">Units</string>
+</resources>

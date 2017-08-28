@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">XYZEnterprise</string>
+    <string name="titulo_main">Manillas</string>
+    <string name="ingresar_numero_manillas">Ingrese la cantidad que desea:</string>
+    <string name="material">Material</string>
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="dije">Dije</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="tipo">Tipo</string>
+    <string name="oro">Oro</string>
+    <string name="baño_de_oro">Baño de Oro</string>
+    <string name="oro_rosado">Oro Rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+    <string name="calcular">Calcular Valor</string>
+    <string name="valor_a_pagar">Valor a pagar:</string>
+    <string name="moneda">Moneda</string>
+    <string name="cop">COP</string>
+    <string name="usd">USD</string>
+    <string name="unidades">Unidades</string>
+    <string-array name="material">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+    <string-array name="dije">
+        <item>@string/ancla</item>
+        <item>@string/martillo</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>@string/oro</item>
+        <item>@string/baño_de_oro</item>
+        <item>@string/oro_rosado</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+
+
 </resources>
