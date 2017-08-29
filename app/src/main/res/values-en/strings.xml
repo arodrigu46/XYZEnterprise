@@ -22,4 +22,6 @@
     <string name="valor_a_pagar">Amout to be Paid</string>
     <string name="unidades">Units</string>
     <string name="error00">Please enter a valid number of units</string>
+    <string name="error01">Choose a coin</string>
+    <string name="error02">Is not a valid combination</string>
 </resources>

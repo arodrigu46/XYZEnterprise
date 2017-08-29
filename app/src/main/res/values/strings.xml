@@ -36,6 +36,8 @@
         <item>@string/niquel</item>
     </string-array>
     <string name="error00">Digite un número de unidades válido</string>
+    <string name="error01">Seleccione una moneda</string>
+    <string name="error02">Combinación no válida</string>
 
 
 </resources>
