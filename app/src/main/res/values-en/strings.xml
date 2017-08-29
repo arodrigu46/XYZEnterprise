@@ -21,4 +21,5 @@
     <string name="usd">USD</string>
     <string name="valor_a_pagar">Amout to be Paid</string>
     <string name="unidades">Units</string>
+    <string name="error00">Please enter a valid number of units</string>
 </resources>

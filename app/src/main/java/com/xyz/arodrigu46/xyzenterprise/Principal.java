@@ -5,12 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Principal extends AppCompatActivity {
     private Resources resources;
     private TextView res;
+    private EditText txtUnidades;
     private Spinner material;
     private String mat[];
     private Spinner dije;
@@ -22,7 +25,7 @@ public class Principal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-
+        txtUnidades = (EditText) findViewById(R.id.txtUnidades);
         res = (TextView) findViewById(R.id.txtValor);
         resources  = this.getResources();
 
@@ -44,6 +47,20 @@ public class Principal extends AppCompatActivity {
 
     }
     public void calcular(View v){
-        res.setText("20");
+
+        if(validar()){
+            res.setText("yes");
+        }else{
+            res.setText("not");
+        }
+    }
+    public boolean validar(){
+        if(txtUnidades.getText().toString().isEmpty() || txtUnidades.getText().toString().equals("0")){
+            Toast.makeText(this, resources.getString(R.string.error00),Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        else{
+            return true;
+        }
     }
 }

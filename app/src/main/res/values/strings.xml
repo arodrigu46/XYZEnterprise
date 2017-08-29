@@ -35,6 +35,7 @@
         <item>@string/plata</item>
         <item>@string/niquel</item>
     </string-array>
+    <string name="error00">Digite un número de unidades válido</string>
 
 
 </resources>
